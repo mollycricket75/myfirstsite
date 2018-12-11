@@ -1,0 +1,145 @@
+/*************Global styels*************/
+
+body {
+    margin: 0 auto;
+    font-family: 'Dokdo', cursive;
+    font-size:25px;
+}
+/******************Nav styles****************/
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: navy;
+    position: fixed;
+    top: 0;
+    
+}
+
+.nav-list{
+    float:right;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+.list-item {
+    list-style-type: none;
+    background-color: #41a6de;
+    height: 50px;
+    width: 100px;
+    float:left;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin-right: 100px;
+    text-align: center;
+    margin-top: 25px;
+    margin: 25px 0px 0px ;
+}
+
+.list-item:hover{
+    background-color:yellow;
+}
+
+.list-item a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: -10px;
+}
+
+/*.hero-img{*/
+/*    width:100%;*/
+/*}*/
+
+.hero {
+    background-image: url("../img/banner.png");
+    /*height:70px;*/
+    /*width: 100%;*/
+    margin-top:200px;
+}
+
+
+
+.hero-text-box {
+    background-color: rgb(0, 51, 153);
+    height: 300px;
+    width:200px;
+    /*margin-top: 30px;*/
+   /*margin-left: 5%;*/
+   position: absolute;
+   top: 130px;
+   left: 75px;
+}
+ 
+ .container{
+     width: 30%;
+     /*height: 500px;*/
+     margin: 0 auto;
+     border: 5px groove red;
+     text-align: center;
+ }
+ 
+ .text{
+     width: 80%;
+     border: 3px solid yellow; 
+     /*float: left;*/
+     margin: 0 auto;
+    font-family: 'Knewave', cursive;
+    /*font-family: 'Dokdo', cursive;*/
+     
+     
+ }
+ 
+ .section-img{
+     /*margin-top: 20px;*/
+     width:80%;
+ }
+ 
+ .footer {
+     height: 70px;
+     width: 100%;
+     background-color: navy;
+     clear: both;
+ }
+  .copyright{
+      margin-right: 1%;
+      display:inline-block;
+  }
+  
+  .social{
+      display: inline-block;
+      margin-left:15%;
+      
+  }
+  
+   .fab {
+     font-size: 50px;
+ }
+ 
+ .input_section{
+     float:right;
+ }
+ 
+ .button{
+     float:left;
+ }
+ 
+ .input{
+     float:right;
+ }
+ 
+ .copyright, .social, .container2 {
+     width: 33%;
+     float:left;
+ }
+ 
+/*start of about styles*/
+ 
+ 
+ 
+ 
+ /*start of content styles*/
+ 
+ 

@@ -1,0 +1,27 @@
+.main{
+   margin: 0 auto;
+   width:100%;
+}
+
+.col{
+   border:2px groove red;
+   height:700px;
+   width:27%;
+   float:left;
+   margin-top:200px;
+   margin-left:50px;
+}
+
+.col:hover{
+   border:2px groove blue;
+}
+
+.marvel-img{
+     width:385px;
+     height:330px;
+ }
+ 
+ /*.audio/Lightsaber.wav{*/
+ /*    width:385;*/
+ /*     height:330px;*/
+ /*     }*/
